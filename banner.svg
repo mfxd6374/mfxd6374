@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1033"/><stop offset="1" stop-color="#3b1d4a"/>
+    </linearGradient>
+    <radialGradient id="moon">
+      <stop offset="0" stop-color="#fff7ed"/><stop offset="1" stop-color="#fda4af"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <ellipse id="petal" rx="5" ry="3" fill="#f9a8d4"/>
+  </defs>
+
+  <rect width="900" height="260" rx="14" fill="url(#bg)"/>
+
+  <circle cx="740" cy="105" r="50" fill="url(#moon)" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.8;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M0 260 L0 200 L120 150 L220 210 L340 140 L470 215 L600 160 L760 220
