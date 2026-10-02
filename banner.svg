@@ -19,4 +19,27 @@
     <animate attributeName="opacity" values="1;0.8;1" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <path d="M0 260 L0 200 L120 150 L220 210 L340 140 L470 215 L600 160 L760 220
+  <path d="M0 260 L0 200 L120 150 L220 210 L340 140 L470 215 L600 160 L760 220 L900 170 L900 260 Z" fill="#120a24"/>
+
+  <g fill="#0b0617">
+    <rect x="712" y="160" width="7" height="62"/>
+    <rect x="761" y="160" width="7" height="62"/>
+    <rect x="700" y="152" width="80" height="9" rx="2"/>
+    <rect x="708" y="170" width="64" height="5"/>
+  </g>
+
+  <text x="60" y="130" font-family="'Fira Code', monospace" font-size="84" font-weight="700" fill="#f9a8d4" filter="url(#glow)">MFXD
+    <animate attributeName="opacity" values="1;0.75;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="62" y="170" font-family="'Fira Code', monospace" font-size="22" fill="#c4b5fd">btech student  •  anime guy</text>
+  <text x="62" y="200" font-family="sans-serif" font-size="16" fill="#fda4af">開発者 · アニメ好き</text>
+
+  <use href="#petal"><animateMotion dur="9s"  begin="-1s" repeatCount="indefinite" rotate="auto" path="M100,-10 C140,80 60,160 130,280"/></use>
+  <use href="#petal"><animateMotion dur="11s" begin="-5s" repeatCount="indefinite" rotate="auto" path="M230,-10 C180,90 280,170 220,280"/></use>
+  <use href="#petal"><animateMotion dur="8s"  begin="-3s" repeatCount="indefinite" rotate="auto" path="M350,-10 C400,70 310,150 380,280"/></use>
+  <use href="#petal"><animateMotion dur="12s" begin="-7s" repeatCount="indefinite" rotate="auto" path="M470,-10 C430,100 520,160 460,280"/></use>
+  <use href="#petal"><animateMotion dur="10s" begin="-2s" repeatCount="indefinite" rotate="auto" path="M580,-10 C640,70 540,170 610,280"/></use>
+  <use href="#petal"><animateMotion dur="9s"  begin="-6s" repeatCount="indefinite" rotate="auto" path="M670,-10 C620,90 720,150 650,280"/></use>
+  <use href="#petal"><animateMotion dur="13s" begin="-4s" repeatCount="indefinite" rotate="auto" path="M800,-10 C850,80 770,160 830,280"/></use>
+  <use href="#petal"><animateMotion dur="7s"  begin="-2.5s" repeatCount="indefinite" rotate="auto" path="M30,-10 C70,70 0,150 60,280"/></use>
+</svg>
